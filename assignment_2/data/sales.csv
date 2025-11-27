@@ -1,0 +1,51 @@
+order_id,date,region,product,category,price,quantity
+1,2025-03-01,North,Treadmill,Fitness,135,3
+2,2025-12-10,North,Laptop,Electronics,500,4
+3,2025-05-02,North,Coffee Machine,Home,120,1
+4,2025-06-27,West,Laptop,Electronics,500,20
+5,2025-03-18,North,Treadmill,Fitness,135,6
+6,2025-01-08,West,Headphones,Electronics,30,8
+7,2025-12-08,West,Headphones,Electronics,30,3
+8,2025-09-21,North,Headphones,Electronics,30,9
+9,2025-11-27,East,Headphones,Electronics,30,16
+10,2025-05-17,South,Coffee Machine,Home,120,21
+11,2025-08-21,North,Jeans,Clothing,40,17
+12,2025-01-03,East,Headphones,Electronics,30,5
+13,2025-12-03,West,Treadmill,Fitness,135,6
+14,2025-02-09,West,Laptop,Electronics,500,6
+15,2025-10-13,South,Headphones,Electronics,30,5
+16,2025-06-27,North,Laptop,Electronics,500,17
+17,2025-12-10,East,Mouse,Electronics,10,15
+18,2025-08-02,East,Laptop,Electronics,500,22
+19,2025-04-01,East,Laptop,Electronics,500,5
+20,2025-03-21,West,Shirt,Clothing,15,2
+21,2025-06-28,West,Blender,Home,50,11
+22,2025-09-01,North,Treadmill,Fitness,135,16
+23,2025-08-14,West,Mouse,Electronics,10,10
+24,2025-03-05,South,Shirt,Clothing,15,14
+25,2025-03-03,North,Blender,Home,50,16
+26,2025-12-03,East,Blender,Home,50,21
+27,2025-06-26,North,Jeans,Clothing,40,23
+28,2025-10-25,East,Mouse,Electronics,10,5
+29,2025-08-17,North,Coffee Machine,Home,120,3
+30,2025-04-20,North,Blender,Home,50,10
+31,2025-04-23,North,Laptop,Electronics,500,23
+32,2025-06-06,West,Coffee Machine,Home,120,3
+33,2025-02-07,West,Shirt,Clothing,15,7
+34,2025-07-23,South,Headphones,Electronics,30,23
+35,2025-09-14,South,Treadmill,Fitness,135,12
+36,2025-09-21,West,Jeans,Clothing,40,6
+37,2025-06-04,North,Jeans,Clothing,40,12
+38,2025-09-13,West,Mouse,Electronics,10,11
+39,2025-03-09,North,Mouse,Electronics,10,20
+40,2025-03-16,North,Mouse,Electronics,10,23
+41,2025-03-29,North,Coffee Machine,Home,120,22
+42,2025-11-23,North,Laptop,Electronics,500,25
+43,2025-04-22,North,Mouse,Electronics,10,14
+44,2025-06-16,South,Blender,Home,50,22
+45,2025-05-24,East,Blender,Home,50,14
+46,2025-12-17,South,Coffee Machine,Home,120,18
+47,2025-05-14,East,Headphones,Electronics,30,14
+48,2025-10-17,East,Blender,Home,50,17
+49,2025-12-26,West,Headphones,Electronics,30,9
+50,2025-06-02,West,Jeans,Clothing,40,2
