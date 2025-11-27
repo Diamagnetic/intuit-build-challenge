@@ -52,10 +52,6 @@ Build the Docker image with the name "python"
 ```bash
 docker build -t python .
 ```
-This will:
-- Generate `data/sales.csv`
-- Run all analytical queries
-- Print output to the console
 
 #### 3. Spin up a Docker container
 Run a container named "python" with the "python" Docker image
@@ -67,6 +63,10 @@ docker run -it --name python python /bin/bash
 ```bash
 python src/main.py
 ```
+This will:
+- Generate `data/sales.csv`
+- Run all analytical queries
+- Print output to the console
 
 #### 5. Running the tests
 ```bash
@@ -197,7 +197,7 @@ The application performs:
 4. Unit tests that validate the analytical methods.
 
 ## Design Decisions
-### Why I constructed a Sythetic CSV dataset?
+### Why I constructed a Synthetic CSV dataset?
 #### 1. Fits the exact analytical queries needed
 The dataset guarantees:
 - multiple regions  
@@ -243,6 +243,15 @@ CSV values are strings by default. Pydantic converts them into correct types aut
 **Pydantic** supports **Decimal** with precision rules, and revenue calculations, viz., two decimal places.
 
 ---
+
+### Usage of Pytest for Unit Testing
+I chose pytest as the testing framework for this assignment as it keeps the test suite simple, and easy to maintain.
+
+#### 1. Minimal Boilerplate
+Tests can be written as simple functions. Pytest does not require test classes or verbose setup/teardown methods.
+
+#### 2. Automatic Test Discovery
+Automatically finds tests based on filename patterns `test_*.py`, and runs all functions with the prefix `test_`.
 
 ### Why I used deterministic seeding?
 Deterministic seeding means setting a fixed seed in `random.seed()`. This ensures that every run generates an identical CSV dataset. This is important to:
